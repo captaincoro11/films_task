@@ -15,7 +15,7 @@
 
     <script>
         document.getElementById('runScriptButton').addEventListener('click', async () => {
-            const response = await fetch('https://films-task.vercel.app/run-selenium-script');
+            const response = await fetch('https://films-backend-1.vercel.app/run-selenium-script');
             const data = await response.json();
             const resultDiv = document.getElementById('result');
             resultDiv.innerHTML = `
